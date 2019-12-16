@@ -1,0 +1,63 @@
+{
+  "name": "legalstart-test",
+  "version": "1.0.0",
+  "description": "My production for the interview test for LegalStart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/gulp",
+    "lint": "./node_modules/.bin/gulp lint",
+    "build": "./node_modules/.bin/gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manuel-Manoury/legalstart-test.git"
+  },
+  "keywords": [
+    "LegalStart",
+    "test",
+    "react",
+    "interview"
+  ],
+  "author": "Manuel MANOURY <m.manoury@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manuel-Manoury/legalstart-test/issues"
+  },
+  "homepage": "https://github.com/Manuel-Manoury/legalstart-test#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/register": "^7.7.4",
+    "babel-eslint": "^10.0.3",
+    "babelify": "^10.0.0",
+    "browserify": "^16.5.0",
+    "del": "^5.1.0",
+    "envify": "^4.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0",
+    "gulp": "^4.0.2",
+    "gulp-debug": "^4.0.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-htmllint": "^0.0.16",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-terser": "^1.2.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-hook-form": "^3.28.15",
+    "react-toggle-button": "^2.2.0",
+    "styled-components": "^4.4.1"
+  }
+}
